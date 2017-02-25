@@ -13,10 +13,10 @@ try:
   row = int(row)
   column = int(column)
   b = list()
-  for i in range(int(row)):
+  for i in range(row):
     col = list()
     number_string = raw_input()
-    a = number_string.split(' ',int(column))
+    a = number_string.split(' ',column)
     if (int(column) != len(a)):
       print "You have entered more or less numbers"
       break
